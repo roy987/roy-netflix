@@ -1,5 +1,5 @@
-const API_KEY = process.env.API_KEY;
-console.log("yoooeeooo", process.env);
+const API_KEY = "3e53fa4bd5574d893036670e1422c43e";
+
 export default {
     
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&langauge=en-US`,
