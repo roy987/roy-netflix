@@ -1,4 +1,4 @@
-const API_KEY = "3e53fa4bd5574d893036670e1422c43e";
+const API_KEY = process.env.API_KEY;
 
 export default {
     
