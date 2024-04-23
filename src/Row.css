@@ -6,6 +6,7 @@
 
 .title {
     padding-left: 20px;
+    font-size: larger;
 }
 .row__posters {
     display: flex;
@@ -22,7 +23,7 @@
 .row__poster {
     object-fit: contain;
     width: 100%;
-    max-height: 100px;
+    max-height: 120px;
     transition: transform 450ms;
 }
 

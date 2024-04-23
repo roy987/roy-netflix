@@ -13,12 +13,21 @@ function Nav() {
             window.removeEventListener("scroll", handleShow);
         };
     }, [])
+
+
+    const handleClick = () => {
+        window.scroll({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
   return (
     <div className={`nav ${show && "nav__black"}`}>
         <img 
         className='nav__logo' 
         src='/Netflix-logo-design.png'
         alt='Netflix Logo'
+        onClick={handleClick}
         />
          <img 
         className='nav__avatar' 
